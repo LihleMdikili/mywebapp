@@ -1,1 +1,64 @@
 /* You can add global styles to this file, and also import other style files */
+
+@font-face {
+  font-family: Rocket-Rinder;
+  src: url("./assets/fonts/Rocket Rinder.otf");
+}
+
+@font-face {
+  font-family: Speedeasy;
+  src: url("./assets/fonts/Speedeasy.otf");
+}
+
+@font-face {
+  font-family: Speedeasy-Speedy;
+  src: url("./assets/fonts/Speedeasy Speedy.otf");
+}
+
+@font-face {
+  font-family: Streamster;
+  src: url("./assets/fonts/Streamster.ttf");
+}
+
+@font-face {
+  font-family: Razor;
+  src: url("./assets/fonts/Razor.otf");
+}
+
+@font-face {
+  font-family: AlienEncounters;
+  src: url("./assets/fonts/SFAlienEncounters.ttf");
+}
+
+@font-face {
+  font-family: AlienEncounters-Italic;
+  src: url("./assets/fonts/SFAlienEncounters-Italic.ttf");
+}
+
+@font-face {
+  font-family: AlienEncounters-Solid;
+  src: url("./assets/fonts/SFAlienEncountersSolid.ttf");
+}
+
+@font-face {
+  font-family: AlienEncounters-Solid-Italic;
+  src: url("./assets/fonts/SFAlienEncountersSolid-Ital.ttf");
+}
+
+body{
+  transition: all .2s ease-out;
+  background-image: url('./assets/img/back.jpg');
+  background-color: #22292C;
+  height: 500px;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-left: 0px;
+  margin-right: 0px;
+}

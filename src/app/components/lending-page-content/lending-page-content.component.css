@@ -1,0 +1,45 @@
+  .center-div{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 60px;
+    text-align: center;
+    max-width: 350px;
+    margin-bottom: 60px;
+  }
+
+  .myName{
+    font-family: Rocket-Rinder;
+    font-size: 350%;
+    color: white;
+    margin-top: 20%;
+  }
+
+  .work{
+    font-family: Streamster;
+    color: tomato;
+  }
+
+  .birth{
+    font-family: AlienEncounters-Solid;
+    font-size: 120%;
+    color: white;
+    margin-top: 10%;
+  }
+
+  .location{
+    font-family: AlienEncounters-Solid;
+    font-size: 120%;
+    color: white;
+  }
+
+  .textMe{
+	  background-image: linear-gradient(135deg, #F79533 0%, #F37055 51%, #EF4E7B 100%);
+    margin-top: 15%;
+    padding: 15px;
+    font-family: AlienEncounters-Solid;
+    border-radius: 4px;
+    background-color: #212529;
+    color: white;
+    cursor: pointer;
+    border: none;
+  }

@@ -1,0 +1,120 @@
+.center-div{
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 80px;
+  text-align: center;
+  max-width: 390px;
+  margin-bottom: 5%;
+  background-color: beige;
+  height: 470px;
+  border-radius: 4px;
+}
+
+.birth{
+  font-family: AlienEncounters-Solid;
+  font-size: 120%;
+  color: #22292C;
+  text-align: left;
+  margin: 15px;
+}
+
+.myInput{
+  width: 85%;
+  height: 50px;
+  border: none;
+  border-radius: 4px;
+  font-family: AlienEncounters-Solid;
+  padding: 10px;
+  margin-top: 20px;
+  color: gray;
+}
+
+.myText{
+  width: 85%;
+  min-height: 130px;
+  border: none;
+  border-radius: 4px;
+  font-family: AlienEncounters-Solid;
+  padding: 10px;
+  margin-top: 20px;
+  color: gray;
+}
+
+.addRef{
+  font-family: AlienEncounters-Solid;
+  border-radius: 4px;
+  background-color: #212529;
+  color: white;
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+  background-image: linear-gradient(135deg, #F79533 0%, #F37055 51%, #EF4E7B 100%);
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+} 
+
+.cancel{
+  font-family: AlienEncounters-Solid;
+  border-radius: 4px;
+  background-color: #212529;
+  color: white;
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+  background-image: linear-gradient(135deg, #5073B8 0%, #1098AD 50%, #07B39B 100%);
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+  /* .myName{
+    font-family: Rocket-Rinder;
+    font-size: 350%;
+    color: white;
+    margin-top: 20%;
+  }
+
+  
+
+  .location{
+    font-family: AlienEncounters-Solid;
+    font-size: 120%;
+    color: white;
+  }
+
+  .textMe{
+    background-image: linear-gradient(135deg, #F79533 0%, #F37055 51%, #EF4E7B 100%);
+    margin-top: 15%;
+    font-family: AlienEncounters-Solid;
+    border-radius: 4px;
+    background-color: #212529;
+    color: white;
+    cursor: pointer;
+    border: none;
+    margin: 30px;
+    width: 250px;
+    height: 220px;
+  }
+
+
+  card:hover{
+    box-shadow: 5px 5px 5px 5px rgba(1,1,1,.5);
+  }
+
+  .addRef{
+    font-family: AlienEncounters-Solid;
+border-radius: 4px;
+background-color: #212529;
+color: white;
+cursor: pointer;
+width: 250px;
+height: 50px;
+background-image: linear-gradient(135deg, #F79533 0%, #F37055 51%, #EF4E7B 100%);
+margin: 0 auto;
+text-align: center;
+margin-top: 5%;
+margin-bottom: 10%;
+  } */

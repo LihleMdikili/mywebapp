@@ -1,0 +1,60 @@
+.center-div{
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 60px;
+    text-align: center;
+  }
+
+  .myName{
+    font-family: Rocket-Rinder;
+    font-size: 350%;
+    color: white;
+    margin-top: 20%;
+  }
+
+  .birth{
+    font-family: AlienEncounters-Solid;
+    font-size: 120%;
+    color: white;
+    margin-top: 10%;
+  }
+
+  .location{
+    font-family: AlienEncounters-Solid;
+    font-size: 120%;
+    color: white;
+  }
+
+  .textMe{
+    background-image: linear-gradient(135deg, #F79533 0%, #F37055 51%, #EF4E7B 100%);
+    margin-top: 15%;
+    font-family: AlienEncounters-Solid;
+    border-radius: 4px;
+    background-color: #212529;
+    color: white;
+    cursor: pointer;
+    border: none;
+    margin: 30px;
+    width: 250px;
+    height: 220px;
+  }
+
+
+  card:hover{
+    box-shadow: 5px 5px 5px 5px rgba(1,1,1,.5);
+  }
+
+  .addRef{
+    font-family: AlienEncounters-Solid;
+border-radius: 4px;
+background-color: #212529;
+color: white;
+cursor: pointer;
+width: 250px;
+height: 50px;
+background-image: linear-gradient(135deg, #F79533 0%, #F37055 51%, #EF4E7B 100%);
+margin: 0 auto;
+text-align: center;
+margin-top: 5%;
+margin-bottom: 10%;
+  }

@@ -1,0 +1,181 @@
+  .header .logo {
+    position: absolute;
+    display: block; 
+    float: left;  
+    height: 35px;
+    margin:  10px 10px 0px  10px;
+  }
+
+  .logo .text{
+    font-family: Streamster;
+    color: tomato;
+    margin: 10%;
+    cursor: pointer;
+  }
+
+  
+  .header {
+    background-color: #1A1F21;
+    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    top: 0;
+  }
+  
+  .header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: #1A1F21;
+    /* margin: 0 auto; */
+  }
+  
+  .header li label {
+    display: block;
+    padding: 12px 12px;
+    text-decoration: none;
+    line-height: 1px;
+    letter-spacing: 0.4px;
+    height: 30px
+
+  }
+  
+  .header li label:hover,
+  .header .menu-btn:hover {
+    border-bottom: 3px solid tomato;
+  }
+
+  .header .powered {
+    display: block; 
+    float: left; 
+    height: 35px; 
+    width: 65px; 
+    margin: 10px 10px 0px  0px; 
+    border-left: 2px black;
+  }
+
+  .header .powered p {
+    padding: 5px; 
+    text-align: center; 
+    font-size: 8px; 
+    color: gray; 
+    border-left: 2px solid gray;
+  }
+  
+  /* menu */
+
+  .header {
+    min-height: 55px;
+  }
+  
+  .header .menu {
+    text-align: center;
+    clear: both;
+    max-height: 0;
+    margin: 0 auto;
+    transition: max-height .4s ease-out;
+  }
+  
+  /* menu icon */
+
+  .menu-font{
+    color: white;
+    font-size: 11px;
+    font-family: AlienEncounters-Solid;
+    font-weight: 500;
+  }
+  
+  .header .menu-icon {
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    padding: 20px 10px;
+    margin-bottom: 0px;
+    position: relative;
+    user-select: none;
+    margin: 5px;
+  }
+  
+  .header .menu-icon .navicon {
+    background: tomato;
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: background .2s ease-out;
+    width: 18px;
+  }
+  
+  .header .menu-icon .navicon:before,
+  .header .menu-icon .navicon:after {
+    background: tomato;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+  }
+  
+  .header .menu-icon .navicon:before {
+    top: 5px;
+  }
+  
+  .header .menu-icon .navicon:after {
+    top: -5px;
+  }
+  
+  /* menu btn */
+  
+  .header .menu-btn {
+    display: none;
+  }
+  
+  .header .menu-btn:checked ~ .menu {
+    max-height: 260px;
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .navicon {
+    background: transparent;
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .navicon:before {
+    transform: rotate(-45deg);
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .navicon:after {
+    transform: rotate(45deg);
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+    top: 0;
+  }
+  
+  /* 48em = 768px */
+  @media (min-width: 48em) {
+    .header li {
+      display: inline-flex;
+    }
+    .header li label {
+        margin-top: 10px;
+        height: 30px;
+        padding: 13px 17px;
+        color: white;
+        font-size: 11px;
+        font-family: AlienEncounters-Solid;
+        font-weight: 500;
+
+    }
+    .header .menu {
+      clear: none;
+      max-height: none;
+    }
+    .header .menu-icon {
+      display: none;
+    }
+  }
+
+
+ 
